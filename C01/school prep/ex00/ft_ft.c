@@ -10,21 +10,25 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
+//#include <stdio.h>
+
 void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
+/*
 int main(void)
 {
-	int S = 5;
-	char c = S +'0';
+	int S = 2;
 	int *ptr = &S;
-	write(1, &c, 1);
-
+	printf("the value of S is :%p\n",&S);
 	ft_ft(ptr);
-	c = S +'0';
-	write(1, &c, 1);
+
+	printf("the value of S is :%d\n", S);
+	printf("the value of S is :%p\n",&S);
 	
 
 	return(0);
 }
+*/
+
