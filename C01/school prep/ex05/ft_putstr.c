@@ -3,17 +3,13 @@
 
 void ft_putstr(char *str)
 {
-	char word = *str;
-	printf("%s\n", word);
-	/*while(word != 0)
+	int i;
+	i = 0;
+	while(str[i] != '\0')
 	{
-		write(1,&word,1);
-		word++;
-	}*/
-	//char mot = *word
-	/*printf("the string is :%s\n", word);
-	printf("the string is :%p\n", word);*/
-	
+		write(1,&str[i],1);
+		i++;
+	}
 	printf("\n");
 }
 	
@@ -21,11 +17,9 @@ void ft_putstr(char *str)
 
 int main(void)
 {
-	char *string = "hello";
-	//printf("the string is :%s\n", string);
-	//char *ptr = &string;
-	//printf("the string is :%p\n", &string);
-	ft_putstr(*string);
+	char string[] = "hello";
+	//char *strln = &string[0];
+	ft_putstr(string);
         
 	
 }
