@@ -1,0 +1,1 @@
+write a program that takes a string as an argument and displays the first 'n' it encounters followed by a new line. if there are no 'n' found , the program displays 'n' followed by a new line, if the the number of the paramaters is not 1 the program displays 'n' followed by a new line.
