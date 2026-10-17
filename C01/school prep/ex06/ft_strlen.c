@@ -9,7 +9,7 @@ int ft_strlen(char *str)
 	{
 		i++;
 	}
-	//printf("the length of the string is %d", i);
+	printf("the length of the string is %d", i);
 	return(i);
 }
 
