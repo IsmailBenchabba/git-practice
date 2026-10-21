@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <stdio.h>
+//#include <stdio.h>
 
 char *ft_strupcase(char *str)
 {
@@ -12,9 +12,9 @@ char *ft_strupcase(char *str)
 
 return(str);
 }
-int main(void)
+/*int main(void)
 {
     char string[] = "hello";
     printf("%s", ft_strupcase(string));
     return(0);
-}
+}*/

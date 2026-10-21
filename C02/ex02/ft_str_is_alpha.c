@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <stdio.h>
+//#include <stdio.h>
 
 int ft_str_is_alpha(char *str)
 {
@@ -21,7 +21,7 @@ return(1);
 }
 
 
-int main(void)
+/*int main(void)
 {
     //char string[] = "Hello";
     char string[] = "hell1o";
@@ -30,4 +30,4 @@ int main(void)
     printf("this string returns : %d\n", ft_str_is_alpha(string));
     
     return(0);
-}
+}*/

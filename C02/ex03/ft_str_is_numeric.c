@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <stdio.h>
+//#include <stdio.h>
 
 int ft_str_is_numeric(char *str)
 {
@@ -19,11 +19,11 @@ int ft_str_is_numeric(char *str)
          }
 return(1);
 }
-int main(int argc, char **argv)
+/*int main(int argc, char **argv)
 {
     if(argc == 2)
     {
         printf("output is : %d", ft_str_is_numeric(argv[1]));
     }
     return(0);
-}
+}*/

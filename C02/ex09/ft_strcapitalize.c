@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <stdio.h>
+//#include <stdio.h>
 
 char *ft_strcapitalize(char *str)
 {
@@ -19,9 +19,9 @@ char *ft_strcapitalize(char *str)
 
 return(str);
 }
-int main(void)
+/*int main(void)
 {
     char string[] = "hello ,55world?";
     printf("%s", ft_strcapitalize(string));
     return(0);
-}
+}*/

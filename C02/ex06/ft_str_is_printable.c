@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <stdio.h>
+//#include <stdio.h>
 
 int ft_str_is_printable(char *str)
 {
@@ -21,11 +21,11 @@ return(1);
 	
 	
 
-int main(int argc, char **argv)
+/*int main(int argc, char **argv)
 {
         if(argc == 2)
     {
         printf("output is : %d \n", ft_str_is_printable(argv[1]));
     }
     return(0);
-}
+}*/
